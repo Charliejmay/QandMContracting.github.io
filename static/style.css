@@ -1,0 +1,30 @@
+body{
+	background-color: #CBCACB;
+	overflow: hidden;
+}
+
+.carousel-item{
+	height: 350px;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#aboutPageRow{
+	padding-left: 50px;
+}
+
+#titleAboutPage{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: bold;
+
+}
+
+.navbar{
+	background: white;
+	background-color: white;
+	color: white;
+}
