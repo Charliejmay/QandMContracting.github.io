@@ -33,5 +33,15 @@ body{
 img{
 	max-height: 720px;
 	max-width: 100%;
-	min-height: 720px;
+}
+
+#featuredProjectImage{
+	padding: 15px;
+	max-height: 5%;
+}
+
+#picLabel{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
 }
