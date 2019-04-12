@@ -1,20 +1,12 @@
 body{
 	background-color: #CBCACB;
-	overflow: hidden;
-}
-
-.carousel-item{
-	height: 350px;
-	width: 100%;
-	padding-left: 100px;
-	padding-right: 100px;
 }
 
 #aboutPageRow{
 	padding-left: 50px;
 }
 
-#titleAboutPage{
+#titlePage{
 	text-align: center;
 	padding-top: 15px;
 	font-size: 35px;
@@ -27,4 +19,18 @@ body{
 	background: white;
 	background-color: white;
 	color: white;
+}
+
+#contactinfo{
+	padding-left: 25px;
+}
+
+#aboutpic{
+	max-width:90%;
+	max-height: 90%;
+}
+
+img{
+	max-height: 720px;
+	max-width: 100%;
 }
