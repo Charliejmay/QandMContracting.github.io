@@ -3,6 +3,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "QandMcontracting@gmail.com";
+    $email_from = "contact@QandMcontracting.com";
     $email_subject = "Website Contact Form";
  
     function died($error) {
@@ -28,7 +29,6 @@ if(isset($_POST['email'])) {
  
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
-    $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
     $comments = $_POST['comments']; // required
  
