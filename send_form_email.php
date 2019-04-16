@@ -29,7 +29,7 @@ if(isset($_POST['email'])) {
  
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
-    $email_from1 = $_POST['email_from']
+    $email_from1 = $_POST['email_from'];
     $telephone = $_POST['telephone']; // not required
     $comments = $_POST['comments']; // required
  
