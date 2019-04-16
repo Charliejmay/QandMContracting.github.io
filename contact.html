@@ -72,7 +72,7 @@ function initMap() {
 
 
 
-<form name="contactform" method="post" action="send_form_email.php" role="form">
+<form id="contactForm" name="contactform" method="post" action="send_form_email.php" role="form">
 
     <div class="messages"></div>
 
@@ -81,15 +81,15 @@ function initMap() {
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="first_name">First Name *</label>
-                    <input id="first_name" type="text" name="first_name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" name="first_name" class="form-control" placeholder="First Name" required="required" data-error="Firstname is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="last_name">Last Name *</label>
-                    <input id="last_name" type="text" name="last_name" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" name="last_name" class="form-control" placeholder="Last Name" required="required" data-error="Lastname is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -97,15 +97,15 @@ function initMap() {
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input id="email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="telephone">Telephone Number *</label>
-                    <input id="telephone" type="telephone" name="telephone" class="form-control" placeholder="Please enter your Telephone Number *" required="required" data-error="Valid Telephone Number is required.">
+                    <label for="telephone">Phone Number</label>
+                    <input id="telephone" type="telephone" name="telephone" class="form-control" placeholder="Phone Number" required="required" data-error="Valid Telephone Number is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -113,8 +113,8 @@ function initMap() {
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    <label for="comments">Message *</label>
-                    <textarea id="comments" name="comments" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <label for="comments">Message</label>
+                    <textarea id="comments" name="comments" class="form-control" placeholder="Please leave us a message." rows="4" required="required" data-error="Please, leave us a message."></textarea>
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
