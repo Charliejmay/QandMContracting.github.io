@@ -2,9 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "QandMcontracting@gmail.com";
-    $email_from = "contact@QandMcontracting.com";
-    $email_subject = "Website Contact Form";
+    $email_to = "you@yourdomain.com";
+    $email_subject = "Your email subject line";
  
     function died($error) {
         // your error code can go here
@@ -29,7 +28,7 @@ if(isset($_POST['email'])) {
  
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
-    $email_from1 = $_POST['email_from'];
+    $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
     $comments = $_POST['comments']; // required
  
@@ -70,7 +69,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
-    $email_message .= "Email: ".clean_string($email_from1)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
