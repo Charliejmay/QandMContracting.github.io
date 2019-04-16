@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "QandMcontracting@gmail.com";
     $email_subject = "Website contact form.";
-    $sendtothisemail = "contact@QandMcontracting.com"
+    $sendtothisemail = "contact@QandMcontracting.com";
     function died($error) {
         // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
