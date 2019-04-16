@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "QandMcontracting@gmail.com";
     $email_subject = "Website contact form.";
- 
+    $sendtothisemail = "contact@QandMcontracting.com"
     function died($error) {
         // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -74,7 +74,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
 // create email headers
-$headers = 'From: '."contact@QandMcontracting.com"."\r\n".
+$headers = 'From: '.$sendtothisemail."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
