@@ -61,3 +61,10 @@ img{
 #dontoverflow{
 	overflow-x: hidden;
 }
+
+#contactSuccess{
+	text-align: center;
+	font: 30px;
+	font-weight: bold;
+	padding-top: 25%;
+}
