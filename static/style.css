@@ -87,3 +87,8 @@ border-radius: 2px; }
 a {
 cursor: pointer;
 }
+
+#blankCol{
+	padding: 0px;
+	margin: 0px;
+}
