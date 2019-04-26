@@ -29,6 +29,7 @@ body{
 #aboutpic{
 	max-width:90%;
 	max-height: 90%;
+	padding-bottom: 9px;
 }
 
 img{
@@ -91,4 +92,17 @@ cursor: pointer;
 #blankCol{
 	padding: 0px;
 	margin: 0px;
+}
+
+.outer {
+    margin: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+.inner {
+    width: 80%;
+    height: 1px;
+    margin: 0px auto;
+    border-top: 6px solid #064F40;
+
 }
