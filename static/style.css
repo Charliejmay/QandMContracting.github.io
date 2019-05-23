@@ -106,3 +106,10 @@ cursor: pointer;
     border-top: 6px solid #064F40;
 
 }
+
+#pictureTitle {
+
+	font-weight: bold;
+	text-align: left;
+	font-size: 25px;
+}
