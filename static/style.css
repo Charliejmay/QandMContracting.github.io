@@ -113,3 +113,7 @@ cursor: pointer;
 	text-align: left;
 	font-size: 25px;
 }
+
+iframe{
+	margin:auto;
+}
